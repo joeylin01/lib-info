@@ -1,13 +1,13 @@
 {
   "name": "@joeylin01/lib-info",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/joeylin01"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/joeylin01/lib-info/issues"
   },
-  "homepage": "https://github.com/joeylin01/lib-info#readme"
+  "homepage": "https://github.com/joeylin01/lib-info#readme",
+  "dependencies": {
+    "@joeylin01/lib-info": "^1.0.1"
+  },
+  "bin":{
+    "lib-info":"./bin/version.js"
+  }
 }
